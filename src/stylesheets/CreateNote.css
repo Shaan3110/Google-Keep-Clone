@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+.createnote{
+    width: 38rem !important;
+    height: 10rem !important;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    padding: 3rem 1rem;
+    height: fit-content;
+}
+.createnote textarea{
+    resize: none;
+    width: 80%;
+    height: 30%;
+    font-family: 'Acme', sans-serif;
+    border: none;
+}
+.createnote textarea:focus{
+    outline: none;
+}
+.submitting{
+    width: 100%;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+}
+.submitting form{
+    display: flex;
+    flex-direction: column;
+}
+.createnote input{
+    font-family: 'Acme', sans-serif;
+    width: 90%;
+    height: 2rem;
+    border: none;
+}
+.createnote input:focus{
+    outline: none;
+}
+.plus{
+    color: #fefe22;
+    /* border: 2px solid black; */
+    font-size: 3rem !important;
+    background-color:#000000;
+    border-radius: 33rem;
+    margin: 0px 1rem;
+}
+.plus:hover{
+    font-size: 3.2rem !important;
+    cursor: pointer;
+}

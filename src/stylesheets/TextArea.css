@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+.textarea textarea{
+    width: 38rem !important;
+    height: 10rem !important;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    resize: none;
+    border: none;
+    font-size: 1.6rem;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    color: black;
+}
+.textarea{
+    margin-top: 3rem;
+}

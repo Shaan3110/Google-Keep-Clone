@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+.note{
+    width: 10rem !important;
+    min-height: 10rem !important;
+    /* border: 2px solid black; */
+    padding: 1rem 1rem;
+    border-radius: 1.5rem;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin: 2rem 1rem;
+}
+.note h1{
+    font-family: 'Acme', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.note p{
+    font-family: 'Acme', sans-serif;
+    font-size: 1rem; 
+    font-weight: 200;
+}
+.delete{
+    font-size: 1.5rem;
+    background-color: #fefe22;
+    border-radius: 33rem;
+    border: 4px solid black;
+    padding: 3px 3px;
+}
+.delete:hover{
+    cursor: pointer;
+}
+.deleting{
+    display: flex;
+    justify-content: flex-end;
+}

@@ -15,7 +15,6 @@ const MainPage = () => {
         })
     }
     const del = (id) => {
-        // alert("deleting!");
         setarray((olddata) => {
             return (
                 olddata.filter((values, indx) => {
@@ -23,9 +22,7 @@ const MainPage = () => {
                 })
             )
         })
-        // console.log(array);
     }
-    // console.log(Expand);
     return (
         <>
             <Header />
